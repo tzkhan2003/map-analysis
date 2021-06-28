@@ -4,7 +4,7 @@ import numpy as np
 def nothing(x):
     pass
 
-# Load image..
+# Load image...
 image = cv2.cv2.imread("a.jpg")
 cv2.namedWindow('image')
 cv2.createTrackbar('HMin', 'image', 0, 179, nothing)
